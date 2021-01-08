@@ -12,6 +12,9 @@ function SearchBox({ handleSearchChange }) {
           aria-label="Search"
           onChange={e => handleSearchChange(e)}
         />
+      <button className="btn" type="submit">
+      Search
+      </button>
       </form>
     </div>
   );
